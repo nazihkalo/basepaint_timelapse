@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "basepaint-timelapse"
+version = "0.1.0"
+description = ""
+authors = ["Nazih Kalo <nazihkalo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "basepaint_timelapse"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+numpy = "^1.25.2"
+flipside = "^2.0.8"
+pandas = "^2.0.3"
+opencv-python = "^4.8.0.76"
+streamlit = "^1.25.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
