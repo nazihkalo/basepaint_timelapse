@@ -7,7 +7,7 @@ st.title('Basepaint Video Generator')
 day = st.number_input('Enter the day value:', min_value=0, value=1, step=1)
 
 
-@st.cache_data
+@st.cache
 def flipside_data():
     return get_data()
 
