@@ -11,7 +11,7 @@ python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
 numpy = "^1.25.2"
 flipside = "^2.0.8"
 pandas = "^2.0.3"
-streamlit = "^1.25.0"
+streamlit = "1.15.1"
 python-dotenv = "^1.0.0"
 opencv-python-headless = "^4.8.0.76"
 
